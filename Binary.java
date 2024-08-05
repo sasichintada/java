@@ -8,7 +8,7 @@ class Binary {
 		int low=0,high=A.length,mid;
 		while(low<=high) {
 			mid=(low+high)/2;
-			if(A[mid]>=key)
+			if(A[mid]==key)
 				return mid;
 			if(key>A[mid])
 				low=mid+1;
